@@ -18,13 +18,13 @@ function guess() {
       return false;
     }
 
-    var guessResult = getResults(input.value);
+    var guessResult = ;
 
     if(guessResult){
       setMessage("You Win! :)");
       showAnswer(guessResult);
       showReplay();
-    } else if (!guessResult & attempt >= 10){
+    } else if (!guessResult & attempt.value >= 10){
       setMessage("You Lose! :()");
       showAnswer(guessResult);
       showReplay();
