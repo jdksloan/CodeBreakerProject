@@ -18,7 +18,7 @@ function guess() {
       return false;
     }
 
-    var guessResult = ;
+    var guessResult = getResults(input.value);
 
     if(guessResult){
       setMessage("You Win! :)");
